@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-import { ButtonWithIcon } from './ButtonWithIcon';
+import { Button } from './ButtonWithIcon';
 
 const ButtonWithIcon = ({ children, onClick, ...allyProps }) => (
-  <ButtonWithIcon type="button" onClick={onClick} {...allyProps}>
+  <Button type="button" onClick={onClick} {...allyProps}>
     {children}
-  </ButtonWithIcon>
+  </Button>
 );
 
 ButtonWithIcon.defaultProps = {
