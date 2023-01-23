@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
-import { Button } from './ButtonWithIcon';
+import { Button } from './ButtonWithIcon.styled';
 
-const ButtonWithIcon = ({ children, onClick, ...allyProps }) => (
+
+export const ButtonWithIcon = ({ children, onClick, ...allyProps }) => (
   <Button type="button" onClick={onClick} {...allyProps}>
     {children}
   </Button>
